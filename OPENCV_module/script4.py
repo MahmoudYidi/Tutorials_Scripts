@@ -22,8 +22,8 @@ width = image.shape[1]
 
 
 
-###### Scaling ##########
-scale = 50/100
+###### Scaling ####
+scale = 45/100
 
 height = int(height*scale)
 
