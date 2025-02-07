@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 
-#######################
+##########
 
 #path = r"/"
 
@@ -22,9 +22,12 @@ edges = cv2.Canny(img, 50, 300, apertureSize=3, L2gradient=True)
 
 
 
-########################
+####################
 cv2.imshow('main', img)
+#cv2 wait
+
 cv2.waitKey(0)
+
 
 
 cv2.imshow('edges', edges)
