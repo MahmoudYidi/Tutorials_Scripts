@@ -15,7 +15,7 @@ import numpy as np
 img1 = cv2.imread('robot1.jpg')
 img2 = cv2.imread('robot2.jpg')
 
-######################
+#################
 
 
 #### Add Images #####
