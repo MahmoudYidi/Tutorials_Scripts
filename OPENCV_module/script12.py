@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 img = cv2.imread('blue.jpg')
 
 
-#####  Equalize  #####################
+#####  Equalize  ####
 
 channels = cv2.split(img)
 
